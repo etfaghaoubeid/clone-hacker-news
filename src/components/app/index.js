@@ -1,9 +1,18 @@
 import React from 'react';
-
+import {ThemeProvider} from  'styled-components';
+import {  colorsDark  }  from 'styles/pallete'
+import {Wrapper,Title} from './style'
 class App extends React.Component{
   render(){
     return (
-      <h1> hello</h1>
+      <ThemeProvider theme={colorsDark}>
+        <div>
+          <Wrapper>
+            <Title>hello</Title>
+          </Wrapper>
+        </div>  
+      </ThemeProvider>
+    
     );
   }
 }  
