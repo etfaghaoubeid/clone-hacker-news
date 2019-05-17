@@ -135,6 +135,6 @@ module.exports = {
     "plugins": [
         "html",
         "prettier",
-        "react-hooks"
+        "react-hooks" 
     ]
 }
