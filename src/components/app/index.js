@@ -9,7 +9,7 @@ class App extends React.Component{
       <ThemeProvider theme={colorsDark}>
         <div>
           <Wrapper>
-            <Title>hello</Title>
+            <Title>Hacker News Clone</Title>
             <List/>
           </Wrapper>
         </div>  
