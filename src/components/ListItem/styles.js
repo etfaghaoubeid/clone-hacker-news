@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Item = styled.li`
-  list-style:none;
   border-bottom: 1px solid ${({ theme }) => theme.border};
   padding: 14px 24px;
   &:last-child {
@@ -36,4 +35,11 @@ export const ExernalLink = styled.a`
 export const Description = styled.div`
   font-size: 14px;
   color: ${({ theme }) => theme.textSecondary};
+`;
+
+export const CommentLink = styled.a`
+  color: ${({ theme }) => theme.textSecondary};
+  &:visited {
+    color: ${({ theme }) => theme.textSecondary};
+  }
 `;

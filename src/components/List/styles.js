@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 export const ListWrapper =styled.ul`
+  list-style:none;
   background-color:${props=>props.theme.backgroundSecondary};
   margin-left:auto;
   margin-right:auto;
